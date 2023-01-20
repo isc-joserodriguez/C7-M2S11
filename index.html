@@ -7,9 +7,20 @@
     <title>Petición</title>
   </head>
   <body>
-    <h1 id="moneda"></h1>
-    <img id="imagen"></img>
+    <form id="form">
+      <label for="nombre">nombre</label>
+      <input type="text" id="nombre" /><br /><br />
+      <label for="apellido">apellido</label>
+      <input type="text" id="apellido" /><br /><br />
+      <label for="correo">correo</label>
+      <input type="email" id="correo" /><br /><br />
+      <label for="contrasena">contrasena</label>
+      <input type="password" id="contrasena" /><br /><br />
+      <input type="submit" value="Guardar submit"></input>
+    </form>
+    <button id="guardar">Guardar botón</button>
 
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>
